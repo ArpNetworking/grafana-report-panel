@@ -24,7 +24,7 @@ pipeline {
             usernamePassword(credentialsId: 'jenkins-ossrh', usernameVariable: 'OSSRH_USER', passwordVariable: 'OSSRH_PASS'),
             string(credentialsId: 'jenkins-gpg', variable: 'GPG_PASS')]) {
           sh 'npm install'
-          sh 'grunt --force'
+          sh 'npm run test'
           sh 'cp -R dist grafana-report-panel'
           sh 'zip -r grafana-report-panel.zip grafana-report-panel/'
         }
