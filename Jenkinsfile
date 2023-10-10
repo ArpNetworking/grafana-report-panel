@@ -25,8 +25,6 @@ pipeline {
             string(credentialsId: 'jenkins-gpg', variable: 'GPG_PASS')]) {
           sh 'npm install'
           sh 'npm run test'
-          sh 'cp -R dist grafana-report-panel'
-          sh 'zip -r grafana-report-panel.zip grafana-report-panel/'
         }
       }
     }
