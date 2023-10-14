@@ -16,7 +16,7 @@
     "@types/jest": "^24.0.18",
     "@types/lodash": "^4.14.117",
     "grafana-sdk-mocks": "github:grafana/grafana-sdk-mocks",
-    "jest": "^24.9.0",
+    "jest": "^29.7.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
   },
