@@ -17,7 +17,7 @@
     "@types/lodash": "^4.14.117",
     "grafana-sdk-mocks": "github:grafana/grafana-sdk-mocks",
     "jest": "^24.9.0",
-    "ts-jest": "^24.1.0",
+    "ts-jest": "^29.1.1",
     "typescript": "^3.6.3"
   },
   "homepage": "https://github.com/speezepearson/grafana-report-panel",
